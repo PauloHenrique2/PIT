@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #AAD0C7;
+}
+
+#cadastro {
+    border: 2px solid black;
+    background-color: white;
+    display: inline-block;
+    border-radius: 100px;
+    width: 700px;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+div {
+    border: 2px solid #AAD0C7;
+    border-radius: 20px;
+}
+
+#nome_cad:focus {
+    background-color: #AAD0C7;
+}
+
+#nome_cad {
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+#email_cad:focus {
+    background-color: #AAD0C7;
+}
+
+#email_cad {
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    width: 75%;;
+}
+
+#senha_cad:focus {
+    background-color: #AAD0C7;
+}
+
+#senha_cad {
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.link {
+    text-align: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: #4CAF50;
+}

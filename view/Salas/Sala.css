@@ -1,0 +1,123 @@
+/* Reset de estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+/* Estilo do corpo da página */
+body {
+    background-color: #52ad8a;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho da turma */
+header {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Estilo das informações da Sala */
+.infoSala{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    align-content: center;
+}
+
+
+#nomeTurma{
+    color: #62a1ff;
+    text-shadow: 1px 1px #000000;
+}
+
+/* Estilo do botão "Ver Integrantes" */
+#verIntegrantesBtn {
+    background-color: #0f9d58;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#verIntegrantesBtn:hover {
+    background-color: #0c8040;
+}
+
+/* Estilo do botão "Criar Atividade" */
+#criarAtividadeBtn {
+    background-color: #00578a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#criarAtividadeBtn:hover {
+    background-color: #00495c;
+}
+
+/* Estilo da lista de atividades */
+main {
+    background-color: #2d8086;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#atvs{
+    color: #62a1ff;
+    text-shadow: 1px 1px #000000;
+    text-align: center;
+}
+
+/* Estilo dos itens da lista de atividades */
+#listaAtividades {
+    list-style-type: none;
+}
+
+#listaAtividades li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Estilo de links (para os detalhes das atividades) */
+#listaAtividades a {
+    text-decoration: none;
+    color: #4285f4;
+    font-weight: bold;
+}
+
+/* Estilo para links quando estão em foco ou hover */
+#listaAtividades a:hover,
+#listaAtividades a:focus {
+    text-decoration: none;
+}
