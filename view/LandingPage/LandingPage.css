@@ -1,0 +1,211 @@
+/* Reset de estilos padrão do navegador */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+html {scroll-behavior: smooth;
+}
+
+#down-arrow{margin: 10px auto -7px auto;
+  height: 50px;
+  width: 50px;
+  animation: down-arrow-move 2s infinite;
+}
+  
+.down-arrow:hover{cursor: pointer;
+}
+      
+@keyframes down-arrow-move{
+          0% {
+              margin: 10px auto -10px auto;
+          }
+          25% {
+              margin: 7px auto -7px auto;
+          }
+          50% {
+              margin: 10px auto -10px auto;
+          }
+          75% {
+              margin: 7px auto -7px auto;
+          }
+          100% {
+            margin: 10px auto -10px auto;
+        }
+}
+
+/* Estilo do corpo da página */
+body {
+  background-color: #52ad8a;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.nav-link{
+  color: #fff;
+}
+
+.banner {
+  /* Banner pog */
+  background-image:
+  linear-gradient(to top right, rgba(228,221,221, 0.50) 60%, rgba(80, 204, 187, 0.8) 80%),
+  url(../../assets/Sala_mucho_loka.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+}
+
+#Leon{
+  color: rgb(16, 69, 150);
+  text-shadow: 1px 1px #00525f5b;
+  font-size: 120px;
+}
+
+#Desc{
+  color: rgb(70, 49, 128);
+  text-shadow: 1px 1px #000000;
+  font-size: 20px;
+}
+
+#saibaMais{
+  font-size: 35px;
+  color: rgb(230, 181, 20);
+  text-shadow: 1px 1px #000000;
+}
+
+#Butao{
+  background-color: #00578a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#Butao:hover{
+  background-color: #00495c;
+}
+
+/* para o header*/
+ul
+{
+  list-style-type: none;
+}
+
+li
+{
+  float: left;
+}
+
+li a 
+{
+  padding: 16px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+li .abacate
+{
+  text-align: right;
+}
+
+/*
+#cadastro{
+  text-align: center;
+  grid-column: auto;
+  grid-auto-rows: auto;
+  align-content: center;
+  right: 500px;
+  width: 500px;
+  border: solid 1px;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: #2d8086;
+}
+
+a:link{
+text-decoration: none;
+}
+
+
+#irLogin{
+    background-color: #0f9d58;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ #irLogin:hover{
+  background-color: #0f7946
+}
+*/
+
+.Imagens{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Descricoes{
+  display: inline-block;
+}
+
+/* para o header Cadastre{
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+}
+*/
+
+#Entra{
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+}
+
+#cadLog{
+  background-color: #00578a;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  align-self: center;
+  width: 200px;
+}
+
+#cadLog:hover{
+  background-color: #003452;
+}
